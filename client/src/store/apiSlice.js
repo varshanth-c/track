@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseURI = 'https://track-34as.vercel.app';
+const baseURI = 'https://track-34as-2at790iol-kvs-projects-b0e39d5c.vercel.app';
 
 export const apiSlice = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: baseURI }),
