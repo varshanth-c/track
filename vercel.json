@@ -19,6 +19,7 @@
             "server/routes/*.js",
             "server/models/*.js",
             "server/controller/*.js", 
+              "server/middleware/*.js"
           ]
         }
       }
