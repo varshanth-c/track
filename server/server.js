@@ -9,9 +9,9 @@ const app = express();
 // Use middleware
 app.use(cors({
     origin : ["https://vercel.com/kvs-projects-b0e39d5c/track/JBvrpu6YaPt1dkfgGWsKijEosLwP"],
-    methods:["POST","GET","DELETE"],
-    credentials:true
-            ));
+    methods: ["POST", "GET", "DELETE"],
+    credentials: true
+}));
 app.use(express.json());
 
 // Connect to MongoDB
@@ -21,4 +21,8 @@ const con = require('./db/connection.js');
 app.use(require('./routes/route'));
 
 // Start server
+app.listen(port, () => {
+    console.log(`Server is running on port: ${port}`);
+});
+
 module.exports = app;
