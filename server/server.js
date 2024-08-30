@@ -8,7 +8,7 @@ const app = express();
 
 // Use middleware
 app.use(cors({
-    origin : ["https://deploy-mern-1whq.vercel.app"],
+    origin : ["https://track-ashen.vercel.app"],
     methods:["POST","GET","DELETE"],
     credentials:true
             ));
