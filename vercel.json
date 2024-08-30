@@ -14,7 +14,6 @@
         "config": {
           "includeFiles": [
             "server//*.js",
-              "server/server.js",
             "server/.env",
             "server/db/connection.js",
             "server/routes/*.js",
