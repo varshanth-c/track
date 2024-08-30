@@ -15,7 +15,7 @@
           "includeFiles": [
             "server//*.js",
               "server/server.js",
-            "server/config.env",
+            "server/.env",
             "server/db/connection.js",
             "server/routes/*.js",
             "server/models/*.js",
