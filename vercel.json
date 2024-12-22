@@ -16,9 +16,9 @@
           "server/*.js",
           "server/.env",
           "server/db/connection.js",
-          "server/routes/**/*.js",
-          "server/models/**/*.js",
-          "server/controller/**/*.js",
+          "server/routes/*.js",
+          "server/models/*.js",
+          "server/controller/*.js",
         ]
       }
     }
