@@ -3,6 +3,8 @@ const cors = require('cors');
 require('dotenv').config({ path: './config.env' });
 const port = process.env.PORT || 5000;
 
+app.use(cors({ origin: "https://track-ashen.vercel.app" }));
+
 // Initialize app
 const app = express();
 
