@@ -38,7 +38,7 @@ const app = express();
 // Middleware
 app.use(cors({
     origin: [
-        "https://https://track-708xrbtm1-kvs-projects-b0e39d5c.vercel.app"
+        "https://track-ashen.vercel.app"
     ],
     methods: ["POST", "GET", "DELETE"],
     credentials: true
