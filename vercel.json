@@ -10,15 +10,7 @@
     },
     {
       "src": "server/package.json",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "server/*.js",
-          "server/routes/*.js",
-          "server/models/*.js",
-          "server/controller/*.js",
-        ]
-      }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
