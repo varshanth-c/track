@@ -9,18 +9,15 @@
       }
     },
     {
-      
       "src": "server/package.json",
       "use": "@vercel/node",
       "config": {
         "includeFiles": [
           "server/*.js",
-          "server/.env",
           "server/db/connection.js",
-          "server/routes/*.js",
-          "server/models/*.js",
-          "server/controller/*.js",
-          "server/middleware/*.js"
+          "server/routes/**/*.js",
+          "server/models/**/*.js",
+          "server/controller/**/*.js"
         ]
       }
     }
