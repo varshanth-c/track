@@ -9,6 +9,7 @@
       }
     },
     {
+      
       "src": "server/package.json",
       "use": "@vercel/node",
       "config": {
