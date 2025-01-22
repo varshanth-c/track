@@ -1,7 +1,7 @@
 /*import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { Box } from '@mui/material/Box';
 
-const baseURI = 'https://localhost:8080';
+const baseURI = 'http://localhost:8080';
 
 export const apiSlice = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: baseURI }),
